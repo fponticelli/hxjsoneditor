@@ -52,7 +52,7 @@ typedef JSONEditorBaseOptions = {
   /**
   A valid JSON Schema to use for the editor. Version 3 and Version 4 of the draft specification are supported. Default `{}`.
   */
-    ?schema : {},
+    schema : {},
   /**
   When to show validation errors in the UI. Valid values are interaction, change, always, and never. Default `"interaction"`.
   */

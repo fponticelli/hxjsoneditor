@@ -42,4 +42,10 @@ extern class JSONEditor {
 
   // Destroy
   function destroy() : Void;
+
+  // events
+  inline function onChangeEvent(listener : Void -> Void) : Void
+    this.on("change", listener);
+  inline function onReadyEvent(listener : Void -> Void) : Void
+    this.on("ready", listener);
 }
